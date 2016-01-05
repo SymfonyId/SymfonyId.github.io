@@ -1,0 +1,33 @@
+/*
+* Bootstrap custom css
+  Created on : Jan 5, 2016, 5:09:54 PM
+  Author     : Putera Kahfi
+*/
+
+.navbar-default {
+    background-color: #BF1E2E;
+    border: none; 
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.intro-header {
+    padding: 0px;
+    text-align: center;
+    color: #f8f8f8;
+    /* background: url(../img/intro-bg.jpg) no-repeat center center; */
+    background-size: cover;
+    background: #BF1E2E;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
