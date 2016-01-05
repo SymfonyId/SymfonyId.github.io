@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="symfonyIdApp" ng-controller="SymfonyIdCtrl">
 <head>
-  <title>Symfony Framework Indonesia</title>
+  <title>{{ page.title }}Symfony Framework Indonesia</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.min.js"></script>
+  <script src="app.js"></script>
   <style type="text/css">
     body{
       background-color: #BF1E2E;
@@ -24,12 +27,26 @@
     a:hover, a:active{
       color: #ADADAD
     }
+
+    #menu{
+      padding-top: 5px;
+    }
+
+    #content{
+      padding-top: 10px;
+    }
    
   </style>
 </head>
 <body>
-  <img src="sfid.jpg">
+  <div id="menu" class="btn-group" role="group">
+    <a type="button" class="btn btn-default" href="#/{{ m.url }}" ng-repeat="m in sfid.menu">
+      {{ m.title }}
+    </a>
+  </div>
+  <div id="content" ng-view></div>
+  <!-- <img src="sfid.jpg">
   <h2>COMING SOON</h2>
-  <a href="https://github.com/SymfonyId"><i class="fa fa-lg fa-github"></i> GitHub</a>
+  <a href="https://github.com/SymfonyId"><i class="fa fa-lg fa-github"></i> GitHub</a> -->
 </body>
 </html>
