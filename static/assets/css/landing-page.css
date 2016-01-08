@@ -187,3 +187,9 @@ p.copyright {
     margin-top: 2em;
 }
 
+.intro-header h1{
+     font-size: 5.273rem;
+    line-height: 0.8334;
+    text-transform: uppercase;
+}
+
