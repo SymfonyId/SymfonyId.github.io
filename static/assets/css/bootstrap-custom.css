@@ -23,11 +23,18 @@
     color: #f8f8f8;
     /* background: url(../img/intro-bg.jpg) no-repeat center center; */
     background-size: cover;
-   
+
 }
 
 .intro-message {
     position: relative;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: none;
 }
