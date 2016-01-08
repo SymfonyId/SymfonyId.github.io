@@ -168,3 +168,22 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
+
+ .panel {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin:0;
+    padding: 1.5em 0;
+    border-bottom: 3px solid #e7e7e7;
+}
+
+.panel .symfony-clients-logos img {
+    height: 40px;
+    width: 160px !important;
+}
+
+.panel .download{
+    margin-top: 2em;
+}
+

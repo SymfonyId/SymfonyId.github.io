@@ -13,6 +13,7 @@
 
         <!-- Bootstrap Core CSS -->
         <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower_components/wow/libs/animate.css">
 
         <!-- Custom CSS -->
         <link href="assets/css/landing-page.css" rel="stylesheet">
@@ -49,11 +50,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
+                        
                         <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#services">Projects</a>
+                            <a href="#services">Event</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
@@ -71,12 +70,10 @@
 
         <div class="intro-header">
             <div class="container">
-
-
                 <div class="row">
 
                     <div class="col-lg-5">
-                        <div class="page-header intro-message">
+                        <div class="page-header intro-message wow bounceInUp">
                             <img src="assets/img/multi-devices.png" />
                         </div>
                     </div>
@@ -111,6 +108,55 @@
 
         <!-- Page Content -->
 
+        <div class="panel">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-8">
+   <div class="symfony-clients-content">
+                <h5 class="text-center">Build With Symfony</h5>
+
+                <div class="row symfony-clients-logos">
+                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
+                        <a href="/projects/drupal">
+                            <img src="http://symfony.com/images/v5/projects-logos/logo-drupal.png">
+
+
+                        </a>
+                    </div>
+                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
+                        <a href="/projects/phpbb">
+                            <img src="http://symfony.com/images/v5/projects-logos/logo-laravel.png">
+                        </a>
+                    </div>
+                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
+                        <a href="/projects/laravel">
+                            <img src="http://symfony.com/images/v5/projects-logos/logo-drupal.png">
+                        </a>
+                    </div>
+                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
+                        <a href="/projects/ezpublish">
+                            <img src="http://symfony.com/images/v5/projects-logos/logo-ezpublish.png">
+                        </a>
+                    </div>
+                                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <div class="download">
+
+        <button class="btn btn-lg btn-primary"><i class="fa fa-download"></i>   Download Symfony 3</button>
+
+        </div>
+        </div>
+
+        </div>
+                 </div>
+    </div>
+
+
         <a  name="services"></a>
         <div class="content-section-a">
 
@@ -123,7 +169,7 @@
                         <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="assets/img/ipad.png" alt="">
+                        <img class="img-responsive wow bounceInUp" src="assets/img/ipad.png" alt="">
                     </div>
                 </div>
 
@@ -240,7 +286,10 @@
 
         <!-- Bootstrap Core JavaScript -->
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+s       <script src="bower_components/wow/dist/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     </body>
 
 </html>
