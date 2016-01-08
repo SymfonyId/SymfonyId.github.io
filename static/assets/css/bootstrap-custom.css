@@ -5,7 +5,7 @@
 */
 
 .navbar-default {
-    background-color: #79011C;
+    background-color: #BF1E2E;
     border: none; 
 }
 
@@ -23,13 +23,7 @@
     color: #f8f8f8;
     /* background: url(../img/intro-bg.jpg) no-repeat center center; */
     background-size: cover;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6d0019+0,8f0222+56,a90329+100 */
-    background: rgb(109,0,25); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(109,0,25,1) 0%, rgba(143,2,34,1) 56%, rgba(169,3,41,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(109,0,25,1) 0%,rgba(143,2,34,1) 56%,rgba(169,3,41,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(109,0,25,1) 0%,rgba(143,2,34,1) 56%,rgba(169,3,41,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#a90329',GradientType=0 ); /* IE6-9 */
-
+   
 }
 
 .intro-message {
