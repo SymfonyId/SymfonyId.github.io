@@ -15,6 +15,7 @@
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="assets/owl/assets/owl.carousel.css">
 
     <!-- Custom CSS -->
     <link href="assets/css/landing-page.css" rel="stylesheet">
@@ -36,7 +37,7 @@
         <body>
 
             <!-- Navigation -->
-            <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+            <nav class="navbar navbar-default navbar-fixed-top topnav affix-top" data-spy="affix" data-offset-top="200" role="navigation">
                 <div class="container topnav">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -55,14 +56,14 @@
 
                                 <li>
                                     <a href="#services"><i class="fa fa-calendar-check-o"></i>
-                                       Event</a>
-                                   </li>
+                                     Event</a>
+                                 </li>
 
-                                <li>
+                                 <li>
                                     <a href="#screencast"><i class="fa fa-youtube-play"></i>
-                                       Screencast</a>
-                                   </li>
-                                   <li>
+                                     Screencast</a>
+                                 </li>
+                                 <li>
                                     <a href="#contact"><i class="fa fa-phone-square"></i> Kontak</a>
                                 </li>
                             </ul>
@@ -75,10 +76,14 @@
 
                 <!-- Header -->
 
-
                 <div class="intro-header">
                     <div class="container">
-                        <div class="row">
+
+                        <!-- Set up your HTML -->
+                        <div class="owl-carousel">
+                          <div> 
+
+                           <div class="row">
 
                             <div class="col-lg-5">
                                 <div class="page-header intro-message wow fadeIn">
@@ -107,205 +112,213 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <!-- /.container -->
+                    <div> Your Content2 </div>
+            </div>
+
+        </div>
+
+        </div>
+        <!-- /.intro-header -->
+
+        <!-- Page Content -->
+
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                       <div class="symfony-clients-content">
+                        <h5 class="text-center">Build With Symfony</h5>
+
+                        <div class="row symfony-clients-logos">
+                            <div class="col-xs-6 col-sm-2 col-md-3 project">
+                                <a href="/projects/drupal">
+                                    <img src="http://symfony.com/images/v5/projects-logos/logo-drupal.png">
+
+
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-2 col-md-3 project">
+                                <a href="/projects/phpbb">
+                                    <img src="http://symfony.com/images/v5/projects-logos/logo-laravel.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-2 col-md-3 project">
+                                <a href="/projects/laravel">
+                                    <img src="http://symfony.com/images/v5/projects-logos/logo-orocrm.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-2 col-md-3 project">
+                                <a href="/projects/ezpublish">
+                                    <img src="http://symfony.com/images/v5/projects-logos/logo-ezpublish.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-                <!-- /.intro-header -->
 
-                <!-- Page Content -->
+                <div class="col-md-4 text-center">
 
-                <div class="panel">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                             <div class="symfony-clients-content">
-                                <h5 class="text-center">Build With Symfony</h5>
+                  <div class="download">
 
-                                <div class="row symfony-clients-logos">
-                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
-                                        <a href="/projects/drupal">
-                                            <img src="http://symfony.com/images/v5/projects-logos/logo-drupal.png">
-
-
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
-                                        <a href="/projects/phpbb">
-                                            <img src="http://symfony.com/images/v5/projects-logos/logo-laravel.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
-                                        <a href="/projects/laravel">
-                                            <img src="http://symfony.com/images/v5/projects-logos/logo-orocrm.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-2 col-md-3 project">
-                                        <a href="/projects/ezpublish">
-                                            <img src="http://symfony.com/images/v5/projects-logos/logo-ezpublish.png">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-4">
-
-                          <div class="download">
-
-                            <button class="btn btn-lg btn-warning wow shake" data-wow-delay="2s"><i class="fa fa-download"></i>  <b> Download Symfony </b> </button>
-
-                        </div>
-                    </div>
+                    <button class="btn btn-lg btn-success wow shake" data-wow-delay="2s"><i class="fa fa-download"></i>  <b> Download Symfony </b> </button>
 
                 </div>
             </div>
+
         </div>
+    </div>
+</div>
 
 
-        <a  name="services"></a>
-        <div class="content-section-a">
+<a  name="services"></a>
+<div class="content-section-a">
 
-            <div class="container">
-                <div class="row">
-                <div class="col-md-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
 
                 <h1 class="text-center"> Symfony Event</h1> <hr/
-                </div>
-                    <div class="col-lg-7 col-sm-7 wow bounceIn">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading ">Rapid Application Development Dengan SIAB</h2>
-                        <p class="lead">Lorem ipsum <a target="_blank" href="http://join.deathtothestockphoto.com/">dulur sit amet</a>Lorem ipsum dolor sit amet, ne discere epicurei vituperata pri, et alia ocurreret abhorreant eam. Ne sed omnesque elaboraret, ei agam contentiones vis. Te quando comprehensam eum, qualisque consulatu democritum ne vix, ut altera eligendi interpretaris eos. Omnesque fabellas te mea. Per an equidem explicari necessitatibus .</p>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-1 col-sm-6">
-                        <img class="img-responsive wow bounceInUp" src="assets/img/ipad.png" alt="">
-                    </div>
-                </div>
-
             </div>
-            <!-- /.container -->
-
+            <div class="col-lg-7 col-sm-7 wow bounceIn">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading ">Rapid Application Development Dengan SIAB</h2>
+                <p class="lead">Lorem ipsum <a target="_blank" href="http://join.deathtothestockphoto.com/">dulur sit amet</a>Lorem ipsum dolor sit amet, ne discere epicurei vituperata pri, et alia ocurreret abhorreant eam. Ne sed omnesque elaboraret, ei agam contentiones vis. Te quando comprehensam eum, qualisque consulatu democritum ne vix, ut altera eligendi interpretaris eos. Omnesque fabellas te mea. Per an equidem explicari necessitatibus .</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                <img class="img-responsive wow bounceInUp" src="assets/img/ipad.png" alt="">
+            </div>
         </div>
-        <!-- /.content-section-a -->
 
-        <div class="content-section-b">
+    </div>
+    <!-- /.container -->
 
-            <div class="container">
+</div>
+<!-- /.content-section-a -->
 
-                <div class="row">
-                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 wow bounceIn">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">Symfony Twig For Designer</h2>
-                        <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                    </div>
-                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="http://designshack.net/wp-content/uploads/155.jpg" alt="">
-                    </div>
-                </div>
+<div class="content-section-b">
 
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 wow bounceIn">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Symfony Twig For Designer</h2>
+                <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
             </div>
-            <!-- /.container -->
-
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <img class="img-responsive" src="http://designshack.net/wp-content/uploads/155.jpg" alt="">
+            </div>
         </div>
-        <!-- /.content-section-b -->
 
-        <div class="content-section-a">
+    </div>
+    <!-- /.container -->
 
-            <div class="container">
+</div>
+<!-- /.content-section-b -->
 
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6 wow bounceIn">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">Symfony API Driven Development<br></h2>
-                        <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="https://image.freepik.com/free-vector/cloud-computing_459-109.jpg" alt="">
-                    </div>
-                </div>
+<div class="content-section-a">
 
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-sm-6 wow bounceIn">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Symfony API Driven Development<br></h2>
+                <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
             </div>
-            <!-- /.container -->
-
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="https://image.freepik.com/free-vector/cloud-computing_459-109.jpg" alt="">
+            </div>
         </div>
-        <!-- /.content-section-a -->
 
-        <a  name="contact"></a>
-        <div class="banner">
+    </div>
+    <!-- /.container -->
 
-            <div class="container">
+</div>
+<!-- /.content-section-a -->
 
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h2>Symfony Indonesia Group</h2>
-                    </div>
-                    <div class="col-lg-4">
-                        <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-primary btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-warning btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<a  name="contact"></a>
+<div class="banner">
 
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>Symfony Indonesia Group</h2>
             </div>
-            <!-- /.container -->
-
+            <div class="col-lg-4">
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-primary btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-warning btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- /.banner -->
 
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li class="footer-menu-divider">&sdot;</li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li class="footer-menu-divider">&sdot;</li>
-                            <li>
-                                <a href="#services">Services</a>
-                            </li>
-                            <li class="footer-menu-divider">&sdot;</li>
-                            <li>
-                                <a href="#contact">Kontak</a>
-                            </li>
-                        </ul>
-                        <p class="copyright text-muted medium">Copyright &copy; Symfony Indonesia. All Rights Reserved</p>
-                    </div>
-                </div>
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.banner -->
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#contact">Kontak</a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted medium">Copyright &copy; Symfony Indonesia. All Rights Reserved</p>
             </div>
-        </footer>
+        </div>
+    </div>
+</footer>
 
-        <!-- jQuery -->
-        <script src="assets/js/jquery.js"></script>
-         <script src="bower_components/angular/angular.min.js"></script>
+<!-- jQuery -->
+<script src="assets/js/jquery.js"></script>
 
-        <!-- angular js scripts -->
-        <script src="app/app.module.js"></script>
-        <script src="app/app.config.js"></script>
-        <script src="app/app.routes.js"></script>
-        <script src="app/main.controller.js"></script>
+<script src="assets/owl/owl.carousel.min.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="bower_components/wow/dist/wow.min.js"></script>
-        <script>
-          new WOW().init();
-      </script>
-  </body>
+<script src="bower_components/angular/angular.min.js"></script>
 
-  </html>
+<!-- angular js scripts -->
+<script src="app/app.module.js"></script>
+<script src="app/app.config.js"></script>
+<script src="app/app.routes.js"></script>
+<script src="app/main.controller.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/wow/dist/wow.min.js"></script>
+<script>
+    $(function($){
+        $(".owl-carousel").owlCarousel({'items':1,'autoplay':true,'loop':true});
+        new WOW().init();
+    });
+</script>
+</body>
+
+</html>
