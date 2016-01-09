@@ -1,0 +1,38 @@
+/*
+* Bootstrap custom css
+  Created on : Jan 5, 2016, 5:09:54 PM
+  Author     : Putera Kahfi
+*/
+
+.container {
+    width: 1024px;
+}
+
+.navbar-default {
+    /*background-color: #BF1E2E;
+    border: none; */
+}
+
+
+.intro-header {
+    padding: 50px 0px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(https://pixabay.com/static/uploads/photo/2015/11/07/11/03/skyscraper-1030774_960_720.jpg) no-repeat center center; 
+    background-size: cover;
+
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: none;
+}
+
