@@ -47,7 +47,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand topnav" href="#">
-                            Symfony <bold>Indonesia<sup> alpha</sup></bold></a>
+                            Symfony <bold>Indonesia<sup> .alpha</sup></bold></a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,6 +56,11 @@
                                 <li>
                                     <a href="#services"><i class="fa fa-calendar-check-o"></i>
                                        Event</a>
+                                   </li>
+
+                                <li>
+                                    <a href="#screencast"><i class="fa fa-youtube-play"></i>
+                                       Screencast</a>
                                    </li>
                                    <li>
                                     <a href="#contact"><i class="fa fa-phone-square"></i> Kontak</a>
@@ -133,7 +138,7 @@
                                     </div>
                                     <div class="col-xs-6 col-sm-2 col-md-3 project">
                                         <a href="/projects/laravel">
-                                            <img src="http://symfony.com/images/v5/projects-logos/logo-drupal.png">
+                                            <img src="http://symfony.com/images/v5/projects-logos/logo-orocrm.png">
                                         </a>
                                     </div>
                                     <div class="col-xs-6 col-sm-2 col-md-3 project">
@@ -150,7 +155,7 @@
 
                           <div class="download">
 
-                            <button class="btn btn-lg btn-success wow shake" data-wow-delay="3s"><i class="fa fa-download"></i>   Download Symfony </button>
+                            <button class="btn btn-lg btn-warning wow shake" data-wow-delay="2s"><i class="fa fa-download"></i>  <b> Download Symfony </b> </button>
 
                         </div>
                     </div>
@@ -236,16 +241,16 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <h2>Symfony Indonesia Group</h2>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <ul class="list-inline banner-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                <a href="https://twitter.com/SBootstrap" class="btn btn-primary btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-warning btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                         </ul>
                     </div>
@@ -279,7 +284,7 @@
                                 <a href="#contact">Kontak</a>
                             </li>
                         </ul>
-                        <p class="copyright text-muted small">Copyright &copy; Symfony Indonesia. <br/> All Rights Reserved</p>
+                        <p class="copyright text-muted medium">Copyright &copy; Symfony Indonesia. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
@@ -287,10 +292,17 @@
 
         <!-- jQuery -->
         <script src="assets/js/jquery.js"></script>
+         <script src="bower_components/angular/angular.min.js"></script>
+
+        <!-- angular js scripts -->
+        <script src="app/app.module.js"></script>
+        <script src="app/app.config.js"></script>
+        <script src="app/app.routes.js"></script>
+        <script src="app/main.controller.js"></script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        s       <script src="bower_components/wow/dist/wow.min.js"></script>
+        <script src="bower_components/wow/dist/wow.min.js"></script>
         <script>
           new WOW().init();
       </script>
