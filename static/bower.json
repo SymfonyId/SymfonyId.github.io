@@ -16,9 +16,11 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "1.4.8",
+    "angular": "~1.4.8",
     "bootstrap": "~3.3.6",
     "font-awesome": "~4.5.0",
-    "wow": "wowjs#~1.1.2"
+    "wow": "wowjs#~1.1.2",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-router-anim-in-out": "~1.0.2"
   }
 }
