@@ -19,6 +19,16 @@
                             templateUrl: 'app/categories/categories.html'
                         });
 
+                $stateProvider.state('event', {
+                    url: '/event',
+                    controller: 'ProjectsController',
+                    views: {
+                        main: {
+                            templateUrl: 'app/event/event.html'
+                        }
+                    }
+                });
+
 
                 $stateProvider.state('projects', {
                     url: '/projects',
@@ -36,25 +46,6 @@
                     views: {
                         main: {
                             templateUrl: 'app/main/main.html'
-                        }
-                    }
-                });
-
-                $stateProvider.state('rules', {
-                    url: '/rules',
-                    controller: 'RulesController',
-                    views: {
-                        main: {
-                            templateUrl: 'app/rules/rules.html'
-                        }
-                    }
-                });
-
-                $stateProvider.state('awesome-ci', {
-                    url: '/awesome-ci',
-                    views: {
-                        main: {
-                            templateUrl: 'app/awsci/awsci.html'
                         }
                     }
                 });
