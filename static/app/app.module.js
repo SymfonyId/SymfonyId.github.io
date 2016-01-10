@@ -2,5 +2,5 @@
 
 (function () {
     'use strict';
-    angular.module('symfonyId', ['ui.router']);
+    angular.module('symfonyId', ['ngAnimate', 'ui.router','anim-in-out']);
 })();
