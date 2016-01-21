@@ -1,0 +1,28 @@
+{
+  "name": "Symfony Indonesia",
+  "homepage": "https://github.com/SymfonyId/SymfonyId.github.io",
+  "authors": [
+    "puterakahfi <puterakahfi@gmail.com>",
+    "ucay <ulumuddin.cy@gmail.com>"
+  ],
+  "description": "Symfony Indonesia Landing Page",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "wow": "wowjs#~1.1.2",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-router-anim-in-out": "~1.0.2",
+    "angular-animate": "~1.4.8"
+  }
+}
