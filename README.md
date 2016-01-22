@@ -2,19 +2,18 @@
 
 
 ## Kontribusi
-Page ini menggunakan AngularJS.
-Yang perlu diperhatikan adalah di dalam folder ``` templates ``` dan file ``` data.json ``` .
+Bagi yang ingin berkontribusi, silahkan clone terlebih dahulu, lalu install npm
+`npm install`
+atau instal secara global
+`npm install -g`
 
-Bagi yang ingin kontribusi, silahkan menambahkan halaman di templates dengan format 
-``` nama-page.html ```
+Setelah itu lakukan
+`bower install`
 
-Dan tambahkan menu di ``` data.json ``` seperti berikut
-```
-{ 
-  "title" : "Judul Page",
-  "url" : "nama-page"
-}
-```
-Perhatikan, object url di data.json harus sama dengan nama file di templates (tanpa extension .html)
+Build terlebih dahulu dengan grunt untuk melihat hasilnya
+`grunt build`
 
-note : bantuin desain dong, :))
+
+TODO
+- Grunt Watch
+- Grunt Serve

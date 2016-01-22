@@ -3,12 +3,12 @@
     Author     : dev
 */
 
-@import "bower_components/bootstrap/dist/css/bootstrap.min.css";
-@import "bower_components/wow/css/libs/animate.css";
+@import "build/vendor/bootstrap/dist/css/bootstrap.min.css";
+@import "build/vendor/wow/css/libs/animate.css";
+@import "build/vendor/font-awesome/css/font-awesome.min.css";
 @import "assets/owl/assets/owl.carousel.css";
-@import "bower_components/font-awesome/css/font-awesome.min.css";
 @import "assets/css/landing-page.css";
 @import "assets/css/bootstrap-custom.css";
 /** angular animations **/
-@import "bower_components/angular-ui-router-anim-in-out/css/anim-in-out.css";
+@import "build/vendor/angular-ui-router-anim-in-out/css/anim-in-out.css";
 
