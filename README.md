@@ -6,12 +6,8 @@ Bagi yang ingin berkontribusi, silahkan clone terlebih dahulu, lalu install npm
 ```
 npm install
 ```
-atau instal secara global
-```
-npm install -g
-```
 
-Setelah itu lakukan
+Setelah itu install bower
 ```
 bower install
 ```
