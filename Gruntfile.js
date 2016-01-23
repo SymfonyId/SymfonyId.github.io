@@ -1,7 +1,10 @@
 module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-http-server');
+
   var userConfig = require( './build.config.js' );
+  
   var taskConfig = {
     copy: {
       build_vendor_js: {
@@ -31,13 +34,26 @@ module.exports = function(grunt) {
             src: [ '<%= vendor_files.font %>' ],
             dest: '<%= build_dir %>'
         }]
-    }
+      }
+    },
+    'http-server': {
+        'dev': {
+            root: '.',
+            port: 8282,
+            host: "localhost",
+            autoIndex: true,
+            ext: "html",
+            runInBackground: false,
+            openBrowser : true,
+            logFn:false
+        }
     }
   };
 
   grunt.initConfig( grunt.util._.extend( taskConfig, userConfig ) );
 
-  grunt.registerTask( 'default', [ 'build'] );
+  grunt.registerTask( 'default', [ 'run_server'] );
+  grunt.registerTask( 'run_server', [ 'build', 'http-server' ] );
   grunt.registerTask( 'build', [
     'copy:build_vendor_js', 'copy:build_vendor_css', 'copy:build_vendor_fonts'
   ]);

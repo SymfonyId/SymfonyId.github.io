@@ -16,12 +16,11 @@ Setelah itu lakukan
 bower install
 ```
 
-Build terlebih dahulu dengan grunt untuk melihat hasilnya
+Tampilkan di browser dengan cara
 ```
-grunt build
+grunt
 ```
 
 
 TODO
 - Grunt Watch
-- Grunt Serve
