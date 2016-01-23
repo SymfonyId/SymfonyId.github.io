@@ -1,7 +1,7 @@
 {
   "name": "symfonyid",
   "description": "SymfonyId Landing Page",
-  "author": "Ulumuddin Cahyadi Yunus",
+  "author": "ucay <ulumuddin.cy@gmail.com>",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
