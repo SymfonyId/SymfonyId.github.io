@@ -1,20 +1,22 @@
-# SymfonyId.github.io
+# Symfony Indonesia
 
 
 ## Kontribusi
-Page ini menggunakan AngularJS.
-Yang perlu diperhatikan adalah di dalam folder ``` templates ``` dan file ``` data.json ``` .
-
-Bagi yang ingin kontribusi, silahkan menambahkan halaman di templates dengan format 
-``` nama-page.html ```
-
-Dan tambahkan menu di ``` data.json ``` seperti berikut
+Bagi yang ingin berkontribusi, silahkan clone terlebih dahulu, lalu install npm
 ```
-{ 
-  "title" : "Judul Page",
-  "url" : "nama-page"
-}
+npm install
 ```
-Perhatikan, object url di data.json harus sama dengan nama file di templates (tanpa extension .html)
 
-note : bantuin desain dong, :))
+Setelah itu install bower
+```
+bower install
+```
+
+Tampilkan di browser dengan cara
+```
+grunt
+```
+
+
+TODO
+- Grunt Watch
