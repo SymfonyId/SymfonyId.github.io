@@ -32,6 +32,7 @@
         <meta name="og:url" content="http://symfonyid.github.io" />
         <meta name="twitter:url" content="http://symfonyid.github.io" />
 
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
         <link rel="stylesheet" href="loader.css">
 
         <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -58,8 +59,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand topnav" href="#">
-                        Symfony Indonesia<sup> .alpha</sup></a>
+
+                    <a class="navbar-brand " href="#">
+                        <h4 class="pull-right">&nbsp; Symfony Indonesia</h4>
+                    </a>
+
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -87,7 +91,7 @@
 
         <!-- Header -->
 
-        <div ui-view="main" id="content-wrapper" class="anim-in-out anim-slide-right anim-slide-below-fade slide-animate" data-anim-speed="500" >
+        <div ui-view="main" id="content-wrapper" class="anim-in-out anim-slide-right anim-slide-below-fade slide-animate" data-anim-speed="500">
         </div>
 
         <!-- /.banner -->
@@ -116,9 +120,9 @@
         <script src="build/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="build/vendor/wow/dist/wow.min.js"></script>
         <script>
-            $(function ($) {
-                new WOW().init();
-            });
+                    $(function ($) {
+                        new WOW().init();
+                    });
         </script>
     </body>
 
