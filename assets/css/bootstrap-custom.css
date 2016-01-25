@@ -2,17 +2,33 @@
 * Bootstrap custom css
   Created on : Jan 5, 2016, 5:09:54 PM
   Author     : Putera Kahfi
-*/
+  */
 
-.container {
+  .container {
     width: 1024px;
 }
 
 .navbar-default {
-    /*background-color: #BF1E2E;
-    border: none; */
+    background-color: #0A0918;
+    border: none; 
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #EC6964;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #EC6964;
+    background-color: transparent;
+}
 
 .intro-header {
     padding: 50px 0px;
@@ -34,4 +50,15 @@
     padding-bottom: 9px;
     margin: 40px 0 20px;
     border-bottom: none;
+}
+
+.navbar-default.affix{
+    background: #DB5252;
+}
+.navbar-default .affix>li>a{
+    color:#EC6964;
+}
+
+.navbar-default .affix .navbar-brand:hover{
+    color: black;
 }
