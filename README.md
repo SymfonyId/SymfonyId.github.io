@@ -1,21 +1,21 @@
-# Symfony Indonesia
+# Symfony Indonesia Landing Page
 
+## Instalasi
+Clone, lalu install package.
+```sh
+$ npm install
+```
+Setelah itu install bower package
+```sh
+$ bower install
+```
+Jalankan di browser dengan
+```sh
+$ grunt
+```
 
 ## Kontribusi
-Bagi yang ingin berkontribusi, silahkan clone terlebih dahulu, lalu install npm
-```
-npm install
-```
 
-Setelah itu install bower
-```
-bower install
-```
-
-Tampilkan di browser dengan cara
-```
-grunt
-```
 
 
 TODO
