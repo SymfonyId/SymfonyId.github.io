@@ -1,0 +1,14 @@
+/* 
+    Created on : Oct 6, 2015, 2:41:30 PM
+    Author     : dev
+*/
+
+@import "../../build/vendor/bootstrap/dist/css/bootstrap.min.css";
+@import "../../build/vendor/wow/css/libs/animate.css";
+@import "../../build/vendor/font-awesome/css/font-awesome.min.css";
+@import "../owl/assets/owl.carousel.css";
+@import "landing-page.css";
+@import "bootstrap-custom.css";
+/** angular animations **/
+@import "../../build/vendor/angular-ui-router-anim-in-out/css/anim-in-out.css";
+

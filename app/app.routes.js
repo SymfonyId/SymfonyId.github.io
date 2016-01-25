@@ -11,7 +11,7 @@
             .config(function ($stateProvider, $urlRouterProvider) {
 
                 // Redirect to home
-                $urlRouterProvider.otherwise('/main');
+                $urlRouterProvider.otherwise('/home');
 
                 $stateProvider
                         .state('categories', {
@@ -40,12 +40,12 @@
                     }
                 });
 
-                $stateProvider.state('main', {
-                    url: '/main',
+                $stateProvider.state('home', {
+                    url: '/home',
                     controller: 'HomeController',
                     views: {
                         main: {
-                            templateUrl: 'app/main/main.html'
+                            templateUrl: 'app/home/home.html'
                         }
                     }
                 });
